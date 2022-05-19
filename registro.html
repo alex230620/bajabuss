@@ -9,22 +9,25 @@
     <title>Registrate en coronoruta</title>
 </head>
 <body>
-    <div class="container2">
+    <form id="formRegistro">
+    <div class="container registro">
         <h2 class="title">Creacion de cuenta nueva</h2>
-        <h3>Ingresa tus datos para registrar</h3>
         <label for="correo">Escribe tu correo</label>
-        <input class="input" type="email" name="" id="email_registro" placeholder="Ej.name@mail.com">
+        <input class="input" type="email" name="correoRegistro" id="correoRegistro" placeholder="Ej.name@mail.com" required>
         <label for="name">Escribe tu nombre</label>
-        <input class="input" type="text"id="nombre_registro">
+        <input class="input" type="text"id="nombre" required>
         <label for="lastname">Escribe tus apellidos</label>
-        <input class="input" type="text"id="id_apellido">
+        <input class="input" type="text"id="apellidos" required>
         <label for="tel">Escribe tu numero telefonico</label>
-        <input class="input" type="number" placeholder="Ej.6861068714">
+        <input class="input" type="number" placeholder="Ej.6861068714" id="telefono" required>
         <label for="date-nac">Ingresa tu fecha de nacimiento</label>
-        <input class="input" type="date"id="id_nacimiento">
-        <input type="checkbox" name="terminos" id="term">
+        <input class="input" type="date"id="fehaNacimiento" required>
+        <input type="checkbox" name="terminos" id="terminos" required value="false">
         <label for="terminos-condiciones">Acepto los terminos y condiciones</label>
         <button class="boton" type="submit">Registrarme</button>
+        <div id="mensaje"></div>
     </div>
+</form>
+<script src="/scripts/registro.js"></script>
 </body>
 </html>

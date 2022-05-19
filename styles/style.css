@@ -14,7 +14,7 @@ body{
     text-shadow: 1px 2px 3px  black;
     /* color: black; */
 }
-.container, .container2{
+.container{
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +32,7 @@ body{
     width: 150px;
     height: 50px;
     background-color: white;
-    color: #ffd345;
+    color: black;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -44,34 +44,19 @@ body{
         transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 .boton:hover, .boton:focus {
-    color: #fff;
+    /* color: #fff; */
     outline: 0;
   }
 .boton:hover {
     box-shadow: 0 0 40px 40px #ffd345 inset;
   }
-.footer{
-    /* background-color: #fff; */
-    height: 80px;
-    width: 100%;
-    color: black;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border: 1px solid black;
-    text-align: center;
-    text-shadow: 1px 2px 3px  black;
-}
-.pie{
-    position: relative;
-    bottom: 10px; 
-}
+
 .container, .link, .boton, .label{
     margin-bottom: 25px;
 }
 /* Para los links de inicio de sesion */
 .link{
-    display: block;
+    /* display: block; */
     position: relative;
     margin-top: 10px;
     color: blue;
@@ -91,29 +76,25 @@ body{
     font-size: 20px;
 }
 /* Para el reseteo de contraseña */
-#buton-reset{
+.reset{
     font-size: 20px;
 }
-#title-reset{
-    text-align: center;
-}
-#container-3{
+.forget{
     margin-top: 30px;
-    height: 200px;
+    height: 250px;
     width: 400px;
 }
 /* Contenedor y estilos para el registro de cuenta */
-.container2{
-    height: 580px;
+.registro{
+    height: 650px;
     width: 600px;
     margin-top: 30px;
 }
 
-.container2, .input, .label{
+.registro, .input, .label{
     margin-bottom: 10px;
     margin-top: 5px; 
 }
-
 
 /* Estilos para los mensajes de alerta en el login */
 
