@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="icon" href="/assets/logo.PNG">
+    <title>Inicio de sesion</title>
+</head>
+<body>
+    <form id="formulario"> 
+        <div class="container">
+        <h1 class="title">Inicio De Sesión</h1>
+        <label class="label" for="user">Nombre de usuario</label>
+        <input class="input" name="userName" type="text" id="userName" placeholder="Usuario">
+        <label class="label" for="pass">Contraseña</label>
+        <input class="input" name="userPassword" type="password" placeholder="Contraseña" id="userPassword">
+        <a class="link" href="/password_forget.html" target="_blank">Olvide mi contraseña</a>
+        <a class="link" href="/registro.html" target="_blank">¿No tienes una cuenta?</a>
+        <button class="boton" type="submit">Entrar</button>
+        <div id ="alerta"></div>
+        </div>
+    </form>
+    <div class="footer">
+        <footer ><h4>Sitio web creado por Alejandro espinoza, todos los derechos reservados 2022</h4></footer>
+        <a class="pie" href="#">Leer terminos y condiciones</a>
+    </div>
+    <script src="/scripts/app-login.js"></script>
+</body>
+</html>

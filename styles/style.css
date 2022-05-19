@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #ffd345;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-size: 20px; */
+}
+.title{
+    color: black;
+    display: block;
+    font-size: 40px;
+    text-shadow: 1px 2px 3px  black;
+    /* color: black; */
+}
+.container, .container2{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: white;
+    width: 560px;
+    height: 460px;
+    border-radius: 30px;
+    text-align: center;
+    text-shadow: 1px 2px 3px  black;
+    box-shadow: 5px 10px 5px black;
+}
+.boton{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: #ffd345;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 5px solid #ffd345;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px black;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.boton:hover, .boton:focus {
+    color: #fff;
+    outline: 0;
+  }
+.boton:hover {
+    box-shadow: 0 0 40px 40px #ffd345 inset;
+  }
+.footer{
+    /* background-color: #fff; */
+    height: 80px;
+    width: 100%;
+    color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid black;
+    text-align: center;
+    text-shadow: 1px 2px 3px  black;
+}
+.pie{
+    position: relative;
+    bottom: 10px; 
+}
+.container, .link, .boton, .label{
+    margin-bottom: 25px;
+}
+/* Para los links de inicio de sesion */
+.link{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    color: blue;
+    font-size: 20px;
+    /* transition: 0.5s; */
+}
+.input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #ffd345;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.label, .input{
+    font-size: 20px;
+}
+/* Para el reseteo de contraseña */
+#buton-reset{
+    font-size: 20px;
+}
+#title-reset{
+    text-align: center;
+}
+#container-3{
+    margin-top: 30px;
+    height: 200px;
+    width: 400px;
+}
+/* Contenedor y estilos para el registro de cuenta */
+.container2{
+    height: 580px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.container2, .input, .label{
+    margin-bottom: 10px;
+    margin-top: 5px; 
+}
+
+
+/* Estilos para los mensajes de alerta en el login */
+
+.mensaje{
+    height: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
